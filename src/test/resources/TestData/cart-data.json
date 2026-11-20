@@ -1,0 +1,20 @@
+{
+  "products": [
+    {
+      "productName": "Half Sleeves Top Schiffli Detailing - Pink",
+      "expectedPrice": 359,
+      "expectedQuantity": 1
+    },
+    {
+      "productName": "Soft Stretch Jeans",
+      "expectedPrice": 799,
+      "expectedQuantity": 1
+    },
+    {
+      "productName": "Summer White Top",
+      "expectedPrice": 400,
+      "expectedQuantity": 1
+    }
+  ],
+  "expectedCartTotal": 1558
+}
