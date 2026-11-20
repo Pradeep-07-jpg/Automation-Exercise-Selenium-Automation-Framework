@@ -35,12 +35,12 @@ A Java test automation framework for an online shopping portal ([Automation Exer
 
 | Module | Test Class / Runner | Test Cases |
 |--------|--------------------|-----------|
-| Login | `LoginTest` | [5] |
-| Products | `ProductTest` | [5] |
-| Search | `SearchTest` | [6] |
-| Cart | `CartTest` | [5] |
-| Payment (BDD) | `PaymentTestRunner` | [1] |
-| **Total** | | **22** |
+| Login | `LoginTest` | 05 |
+| Products | `ProductTest` | 05 |
+| Search | `SearchTest` | 06 |
+| Cart | `CartTest` | 05 |
+| Payment (BDD) | `PaymentTestRunner` | 02 |
+| **Total** | | **23** |
 
 ## Project Packages
 
