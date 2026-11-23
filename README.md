@@ -40,17 +40,17 @@ A Java test automation framework for an online shopping portal ([Automation Exer
 | Search | `SearchTest` | 06 |
 | Cart | `CartTest` | 05 |
 | Payment (BDD) | `PaymentTestRunner` | 02 |
-| **Total** | | **23** |
+| **Total** | | **20+** |
 
 ## Project Packages
 
-- `automation_excercise_tests` – TestNG test classes (Login, Product, Search, Cart)
-- `automation_excercise_runners` – Cucumber TestNG runner (`PaymentTestRunner`)
-- `automation_excercise_listeners` – TestNG listener and retry transformer
-- `automation_excercise_base` – base setup (browser/driver initialization)
-- `automation_excercise_pages` – Page Object classes: `LoginPage`, `SignUpPage`, `ProductsPage`, `CartPage`, `PaymentPage`, `OrderConfirmationPage`
-- `automation_excercise_utilities` – helpers: `JsonReader`, `ExcelReader`, `Extent_Report`, `getScreenShotUtils`, data models (`ProductData`, `CartData`, `CartItemData`) and `GlobalData.properties`
-- `automation_excercise_stepdefinitions` – Cucumber step definitions (`PaymentStepDefinitions`)
+- `automation_exercise_tests` – TestNG test classes (Login, Product, Search, Cart)
+- `automation_exercise_runners` – Cucumber TestNG runner (`PaymentTestRunner`)
+- `automation_exercise_listeners` – TestNG listener and retry transformer
+- `automation_exercise_base` – base setup (browser/driver initialization)
+- `automation_exercise_pages` – Page Object classes: `LoginPage`, `SignUpPage`, `ProductsPage`, `CartPage`, `PaymentPage`, `OrderConfirmationPage`
+- `automation_exercise_utilities` – helpers: `JsonReader`, `ExcelReader`, `Extent_Report`, `getScreenShotUtils`, data models (`ProductData`, `CartData`, `CartItemData`) and `GlobalData.properties`
+- `automation_exercise_stepdefinitions` – Cucumber step definitions (`PaymentStepDefinitions`)
 
 ## Prerequisites
 
@@ -60,9 +60,19 @@ A Java test automation framework for an online shopping portal ([Automation Exer
 - Git
 
 
-## Reports
+## ▶️ How to Run
+**Prerequisites:** JDK [version], Maven, Chrome/[browser]
 
-After a run, reports are generated at: `Reports/` folder [confirm the exact file name, e.g. Reports/ExtentReport.html]
+```bash
+git clone https://github.com/Pradeep-07-jpg/Automation-Exercise-Selenium-Automation-Framework.git
+cd Automation-Exercise-Selenium-Automation-Framework
+mvn clean test
+```
+To run a specific suite: `mvn test -DsuiteXmlFile=testng.xml`
+
+## 📊 Reports
+Reports are generated in `Reports/index.html`. <img width="1915" height="790" alt="image" src="https://github.com/user-attachments/assets/95216139-1bf1-4646-80bc-b948817535d5" />
+
 
 ## Author
 
